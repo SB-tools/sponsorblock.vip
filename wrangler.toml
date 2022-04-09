@@ -1,0 +1,12 @@
+name = "sb-works-redirect"
+type = "javascript"
+
+account_id = "6dccc8a823380a32fe8792904b2cd886"
+compatibility_date = "2022-04-07"
+
+zone_id = "87048bd305772938fd6a5c3c19dee354"
+routes = ["sponsorblock.works/*"]
+
+kv_namespaces = [
+    { binding = "PUBLIC_IDS", preview_id = "b7daebd799ce45e7b30ac1c718621cd9", id = "b44b93e4cc174443aca099a3763b29ff" }
+]
