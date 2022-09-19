@@ -1,1 +1,1 @@
-# This is the repository which takes care of sponsorblock.vip vanity redirects. The bot source code can be found in another repo - https://github.com/caneleex/interactions/blob/master/api/sb_vip_vanity.ts
+# This is the repository which takes care of sponsorblock.vip vanity redirects. The bot source code can be found in another repo - https://github.com/caneleex/interactions/blob/master/pages/api/sb_vip_vanity.ts
