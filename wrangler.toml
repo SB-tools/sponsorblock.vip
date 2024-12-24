@@ -1,4 +1,4 @@
-name = "sb-vip-redirect"
+name = "sb-vip"
 main = "index.js"
 type = "javascript"
 
