@@ -1,4 +1,5 @@
 name = "sb-vip-redirect"
+main = "index.js"
 type = "javascript"
 
 account_id = "6dccc8a823380a32fe8792904b2cd886"
