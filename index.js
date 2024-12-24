@@ -1,5 +1,6 @@
 const redirect = (url) => new Response(null, { status: 301, headers: { 'Location': url } })
-const sb = (endpoint, str) => redirect(`https://sb.ltn.fi/${endpoint}/${str}`)
+const not_found = new Response(null, { status: 404 })
+const sbb = (str) => redirect(`https://sb.ltn.fi/userid/${str}`)
 const website = redirect('https://sponsor.ajay.app')
 
 addEventListener('fetch', event => {
@@ -13,5 +14,5 @@ const handleRequest = async (request) => {
     return website
   }
   const vanity = await PUBLIC_IDS.get(username.toLowerCase())
-  return vanity ? sb('userid', vanity) : sb('username', username)
+  return vanity ? sbb(vanity) : not_found
 }
