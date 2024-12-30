@@ -5,6 +5,9 @@ type = "javascript"
 account_id = "6dccc8a823380a32fe8792904b2cd886"
 compatibility_date = "2022-04-07"
 
+[observability.logs]
+enabled = true
+
 zone_id = "87048bd305772938fd6a5c3c19dee354"
 routes = ["sponsorblock.vip/*"]
 
